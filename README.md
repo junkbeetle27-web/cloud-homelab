@@ -44,7 +44,7 @@ Designed IAM with separation of concerns — no direct policy attachments to use
 
 ## 🗂️ Upcoming Projects
 
-- [ ] S3 static website hosting for `junkbeetle.cloud`
+- [X] S3 static website hosting for `junkbeetle.cloud`
 - [ ] CloudFront distribution + ACM SSL certificate
 - [ ] Route 53 DNS configuration
 - [X] AWS CLI configuration on Linux home lab
