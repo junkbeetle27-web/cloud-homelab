@@ -47,7 +47,7 @@ Designed IAM with separation of concerns — no direct policy attachments to use
 - [ ] S3 static website hosting for `junkbeetle.cloud`
 - [ ] CloudFront distribution + ACM SSL certificate
 - [ ] Route 53 DNS configuration
-- [ ] AWS CLI configuration on Linux home lab
+- [X] AWS CLI configuration on Linux home lab
 - [ ] EC2 instance setup and SSH access
 
 -----
