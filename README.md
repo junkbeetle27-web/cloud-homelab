@@ -27,6 +27,9 @@ Designed IAM with separation of concerns — no direct policy attachments to use
 |`Admins`   |AdministratorAccess|Console access for managing AWS resources|
 |`CLI-Users`|AdministratorAccess|Programmatic access via AWS CLI          |
 
+Note: For a production environment, CLI-Users would follow least-privilege principles with scoped permissions rather than full AdministratorAccess.
+
+
 ### Design Decisions
 
 - **Groups over direct policy attachment** – Policies are attached to groups, not individual users. This makes permission management scalable as the environment grows.
